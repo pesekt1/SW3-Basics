@@ -33,7 +33,7 @@ public class Main {
 
         queue.add(10);
         queue.poll();
-        queue.isEmpty();
+        System.out.println(queue.isEmpty());
         System.out.println(queue);
     }
 
@@ -65,9 +65,9 @@ public class Main {
             arrayQueue.enqueue(i);
         }
 
-        arrayQueue.dequeue();
-        arrayQueue.isEmpty();
-        arrayQueue.peek();
+        System.out.println(arrayQueue.dequeue());
+        System.out.println(arrayQueue.isEmpty());
+        System.out.println(arrayQueue.peek());
         System.out.println(arrayQueue);
     }
 

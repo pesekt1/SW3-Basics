@@ -1,5 +1,6 @@
 package structures.stacks;
 
+//a custom stack that retrieves the minimum value with O(1) run-time efficiency.
 // We need two stacks to implement a min stack.
 // One stack holds the values, the other stack holds the minimums.
 public class MinStack {

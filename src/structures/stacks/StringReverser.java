@@ -14,7 +14,7 @@ public class StringReverser {
 
     //we dont use string because it is immutable
     //better to use mutable StringBuffer or StringBuilder
-    StringBuffer reversed = new StringBuffer();
+    StringBuilder reversed = new StringBuilder();
     while (!stack.empty())
       reversed.append(stack.pop());
 
