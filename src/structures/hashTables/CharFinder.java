@@ -18,6 +18,8 @@ public class CharFinder {
       map.put(ch, count + 1);
     }
 
+    System.out.println(map);
+
     for (var ch : chars)
       if (map.get(ch) == 1)
         return ch;
